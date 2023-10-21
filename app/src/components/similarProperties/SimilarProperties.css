@@ -1,0 +1,36 @@
+.sp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.spItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.spImg{
+width: 100%;
+
+}
+.spName{
+    font-weight: bold;
+}
+.spCity{
+    font-weight: 300;
+}
+.spPrice{
+    font-weight: 500;
+}
+.spRating>button{
+background-color: #ff5f00;
+color: white;
+border: none;
+padding: 4px;
+margin-right: 10px;
+}
+.spRating>span{
+    font-size: 16px;
+}
